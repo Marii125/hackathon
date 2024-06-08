@@ -1,5 +1,6 @@
 import './style.css';
 
-export const ProfileImage = ({ image }) => {
-  return <img src={image} alt="profile photo of woman" />;
+
+export const ProfileImage = ({ imagepath }) => {
+  return <img src={imagepath} alt="profile photo of woman" />;
 };
