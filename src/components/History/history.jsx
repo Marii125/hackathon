@@ -1,9 +1,9 @@
-import { Answer } from '../Answer/answer';
-import { Question } from '../Question/question';
-import { questionaireData } from '../../data/questionnaireData';
+import { Answer } from "../Answer/answer";
+import { Question } from "../Question/question";
+import { questionaireData } from "../../data/questionnaireData";
 
 export const History = ({ dataHistory }) => {
-  return dataHistory.map((questionLog) => {
+  return dataHistory.current.map((questionLog) => {
     const questionId = questionLog.id;
     const questionObject = questionaireData[questionId];
 
@@ -11,7 +11,7 @@ export const History = ({ dataHistory }) => {
     return (
       <div key={answer}>
         <Question text={questionObject.question} />
-        {/*      <Answer answer={answer} /> */}
+        <Answer answer={{ text: answer }} />
       </div>
     );
   });
