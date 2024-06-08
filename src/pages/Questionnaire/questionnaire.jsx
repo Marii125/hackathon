@@ -1,8 +1,9 @@
-import { useRef, useState } from "react";
-import questionaireData from "../../data/questionnaireData";
-import { Question } from "../../components/Question/question";
-import { Answer } from "../../components/Answer/answer";
-import { History } from "../../components/History/history";
+import { useRef, useState } from 'react';
+import questionaireData from '../../data/questionnaireData';
+import { Question } from '../../components/Question/question';
+import { Answer } from '../../components/Answer/answer';
+import { History } from '../../components/History/history';
+import { Result } from '../../components/Result/result';
 
 export const Questionnaire = () => {
   const [questionId, setQuestionId] = useState(0);
@@ -54,6 +55,9 @@ export const Questionnaire = () => {
       </div>
     </div>
   ) : (
-    <History dataHistory={history} />
+    <div>
+      <Result score={score} />
+      <History dataHistory={history} />
+    </div>
   );
 };

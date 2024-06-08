@@ -1,4 +1,4 @@
-import { Profile } from '../Profile';
+import { Profile } from '../Profile/index';
 import { Positions } from '../../data/dataPositionsCreator';
 
 const findPositionWithMaxPoints = (score) => {
@@ -12,7 +12,7 @@ const findPositionWithMaxPoints = (score) => {
   return finalPosition;
 };
 
-const Result = (score) => {
+export const Result = (score) => {
   const positionWithMaxPoints = findPositionWithMaxPoints(score);
   const positionDetail = Positions.find(
     (position) => position.id === positionWithMaxPoints,

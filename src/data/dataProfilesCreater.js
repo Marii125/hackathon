@@ -1,4 +1,4 @@
-const profilesData = [
+export const profilesData = [
   {
     id: 'alca',
     image: '',

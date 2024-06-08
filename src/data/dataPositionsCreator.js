@@ -1,4 +1,4 @@
-const Positions = [
+export const Positions = [
   {
     id: 'tester',
     image: '',
