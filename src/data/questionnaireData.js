@@ -84,7 +84,7 @@ export const questionaireData = {
       {
         text: 'vcítít se do potřeb a preferenci potenciálních uživatelů',
         nextQuestionId: 5,
-        position: 'us',
+        position: 'ux',
       },
       {
         text: 'řešit problémy a z pozorování dokážeš odvodit závěry',
