@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useRef, useState } from 'react';
 import questionaireData from '../../data/questionnaireData';
 import { Question } from '../../components/Question/question';
 import { Answer } from '../../components/Answer/answer';
@@ -13,6 +13,7 @@ export const Questionnaire = () => {
     analyticka: 0,
     testerka: 0,
   });
+  const history = useRef([]);
 
   const onChangeAnswer = (answer) => {
     console.log(score);
@@ -27,9 +28,16 @@ export const Questionnaire = () => {
       });
     }
 
+    const questionLog = {
+      id: questionId,
+      answer: answer.text,
+    };
+
+    history.current.push(questionLog);
     setQuestionId(answer.nextQuestionId);
   };
-  return (
+
+  const ProgressElement = (
     <>
       <Question text={questionObject.question} />
       <div>
@@ -45,4 +53,7 @@ export const Questionnaire = () => {
       </div>
     </>
   );
+
+  const ResultElement = <></>;
+  return questionObject ? <ProgressElement /> : <ResultElement />;
 };
