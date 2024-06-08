@@ -236,7 +236,7 @@ export const questionaireData = {
   10: {
     id: 10,
     question:
-      'Představ si, že pomáháš kamarádovi s přípravou na večírek, který úkol preferuješ',
+      'Představ si, že pomáháš kamarádovi s přípravou na večírek, který úkol preferuješ?',
     answers: [
       {
         text: 'Prohlédnout si seznam hostů a přemýšlet nad zkušenostmi z minulých setkání, abyste vyhodnotili, co fungovalo dobře a co udláte pro změnu tentokrát ůplně jinak',
