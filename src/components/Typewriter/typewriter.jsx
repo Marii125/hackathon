@@ -1,7 +1,7 @@
-export const Typewriter = () => {
+export const Typewriter = ({ text }) => {
   return (
     <div class="typewriter">
-      <h2>CHCEŠ PORADIT NA JAKOU POZICI SE HODÍŠ?</h2>
+      <h2>{text}</h2>
     </div>
   );
 };
