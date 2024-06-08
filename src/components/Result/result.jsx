@@ -1,5 +1,5 @@
 import { Profile } from '../Profile';
-import dataPosition from './dataProfile.json';
+import { Positions } from '../../data/dataPositionsCreator';
 
 const findPositionWithMaxPoints = (score) => {
   const keyPositions = Object.keys(score);
@@ -14,9 +14,15 @@ const findPositionWithMaxPoints = (score) => {
 
 const Result = (score) => {
   const positionWithMaxPoints = findPositionWithMaxPoints(score);
-  const positionDetail = dataPosition.find(
+  const positionDetail = Positions.find(
     (position) => position.id === positionWithMaxPoints,
   );
 
-  return <Profile />;
+  return (
+    <Profile
+      imagepath={positionDetail.imagepath}
+      title={positionDetail.title}
+      description={positionDetail.description}
+    />
+  );
 };
