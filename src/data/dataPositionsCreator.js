@@ -1,6 +1,6 @@
 export const Positions = [
   {
-    id: 'tester',
+    id: 'testerka',
     image: '',
     title: 'Testerka',
     description:

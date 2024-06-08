@@ -6,14 +6,22 @@ const findPositionWithMaxPoints = (score) => {
   const valuesPositions = Object.values(score);
   console.log(keyPositions, valuesPositions);
 
-  let finalPosition = keyPositions[0];
+  let bestScore = -Infinity;
+  let bestIndex = -1;
 
-  valuesPositions.forEach((position) => {
-    console.log(score[position], score[finalPosition]);
-    score[position] > score[finalPosition] ? (finalPosition = position) : null;
+  valuesPositions.forEach((positionScore, index) => {
+    if (positionScore > bestScore) {
+      bestScore = positionScore;
+      bestIndex = index;
+    }
   });
-  console.log(finalPosition);
-  return finalPosition;
+  console.log(bestScore);
+
+  const bestPosition = keyPositions[bestIndex];
+
+  console.log(bestPosition);
+
+  return bestPosition;
 };
 
 export const Result = ({ score }) => {
