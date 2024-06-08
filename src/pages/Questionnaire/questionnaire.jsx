@@ -2,6 +2,7 @@ import { useRef, useState } from 'react';
 import questionaireData from '../../data/questionnaireData';
 import { Question } from '../../components/Question/question';
 import { Answer } from '../../components/Answer/answer';
+import { History } from '../../components/History/history';
 
 export const Questionnaire = () => {
   const [questionId, setQuestionId] = useState(0);
@@ -54,6 +55,11 @@ export const Questionnaire = () => {
     </>
   );
 
-  const ResultElement = <></>;
-  return questionObject ? <ProgressElement /> : <ResultElement />;
+  const ResultElement = (
+    <>
+      <History dataHistory={history} />
+    </>
+  );
+  /*   return questionObject ? <ProgressElement /> : <ResultElement />; */
+  return <ProgressElement />;
 };
