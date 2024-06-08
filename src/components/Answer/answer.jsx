@@ -1,7 +1,3 @@
 export const Answer = ({ answer, onChangeAnswer }) => {
-  return (
-    <button onClick={() => onChangeAnswer(answer.nextQuestionId)}>
-      {answer.text}
-    </button>
-  );
+  return <button onClick={() => onChangeAnswer(answer)}>{answer.text}</button>;
 };

@@ -32,22 +32,22 @@ export const questionaireData = {
       {
         text: 'jsi více empatická než technicky zručná',
         nextQuestionId: 3,
-        position: 'ux-designerka',
+        position: 'ux',
       },
       {
         text: 'ráda vidíš co nejdříve výsledek své práce',
         nextQuestionId: 3,
-        position: 'front-endacka',
+        position: 'frontend',
       },
       {
         text: 'první řešení nebo nápad, co tě napadne je vždy vizuální',
         nextQuestionId: 3,
-        position: 'ux-designerka',
+        position: 'ux',
       },
       {
         text: 'vnímáš své kreativní nadání, ale zároveň máš ráda především ve věcech i práci řád a systém',
         nextQuestionId: 3,
-        position: 'front-endacka',
+        position: 'frontend',
       },
     ],
   },
@@ -58,7 +58,7 @@ export const questionaireData = {
       {
         text: 'umíš poskládat kousky problému do širších souvislostí',
         nextQuestionId: 4,
-        position: 'datova-analyticka',
+        position: 'analyticka',
       },
       {
         text: 'dobře snášíš repetitivnost pracovní náplně',
@@ -73,7 +73,7 @@ export const questionaireData = {
       {
         text: 'ráda prezentuješ před týmem výsledky tvé práce často a pravidelně, nezpůsobuje ti to stres',
         nextQuestionId: 4,
-        position: 'datova-analyticka',
+        position: 'analyticka',
       },
     ],
   },
@@ -84,22 +84,22 @@ export const questionaireData = {
       {
         text: 'vcítít se do potřeb a preferenci potenciálních uživatelů',
         nextQuestionId: 5,
-        position: 'ux-designerka',
+        position: 'us',
       },
       {
         text: 'řešit problémy a z pozorování dokážeš odvodit závěry',
         nextQuestionId: 5,
-        position: 'ux-designerka',
+        position: 'ux',
       },
       {
         text: 'efektivně řídit svůj čas, kriticky myslet a komunikovat s ostatními',
         nextQuestionId: 5,
-        position: 'front-endacka',
+        position: 'frontend',
       },
       {
         text: 'přijmout změny a odpovídajícím způsobem je upravit',
         nextQuestionId: 5,
-        position: 'front-endacka',
+        position: 'frontend',
       },
     ],
   },
@@ -110,7 +110,7 @@ export const questionaireData = {
       {
         text: 'kladný vztah k matematice',
         nextQuestionId: 6,
-        position: 'datova-analyticka',
+        position: 'analyticka',
       },
       {
         text: 'chuť zkoumat nové věci a snažit se je vylepšit',
@@ -120,7 +120,7 @@ export const questionaireData = {
       {
         text: 'ráda grafy, tabulky a vizualizace',
         nextQuestionId: 6,
-        position: 'datova-analyticka',
+        position: 'analyticka',
       },
       {
         text: ' často věci zpochybňuješ a tudíž je potřebuješ posunout na nějakou lepší ůroveň',
@@ -137,12 +137,12 @@ export const questionaireData = {
       {
         text: 'na celkový vizuální dojem',
         nextQuestionId: 7,
-        position: 'ux-designerka',
+        position: 'ux',
       },
       {
         text: 'na funkční celek v různých změnených podmínkách',
         nextQuestionId: 7,
-        position: 'front-endacka',
+        position: 'frontend',
       },
     ],
   },
@@ -154,7 +154,7 @@ export const questionaireData = {
       {
         text: 'NE',
         nextQuestionId: 8,
-        position: 'datova-analyticka',
+        position: 'analyticka',
       },
       {
         text: 'ANO',
@@ -170,22 +170,22 @@ export const questionaireData = {
       {
         text: 'ze všeho nejvíc si rozhodně zvědavá',
         nextQuestionId: 9,
-        position: 'ux-designerka',
+        position: 'ux',
       },
       {
         text: 'velice těžko neseš kritiku',
         nextQuestionId: 9,
-        position: 'front-endacka',
+        position: 'frontend',
       },
       {
         text: 'rychle nacházíš řešení',
         nextQuestionId: 9,
-        position: 'ux-designerka',
+        position: 'ux',
       },
       {
         text: 'si rozhodně v první řadě systematická a důkladná, nejen když jde o úklid',
         nextQuestionId: 9,
-        position: 'front-endacka',
+        position: 'frontend',
       },
     ],
   },
@@ -197,7 +197,7 @@ export const questionaireData = {
       {
         text: 'odhalovat vzorce v pozadí informací',
         nextQuestionId: 10,
-        position: 'datova-analyticka',
+        position: 'analyticka',
       },
       {
         text: 'přistupovat za každých okolností k práci systematicky',
@@ -207,7 +207,7 @@ export const questionaireData = {
       {
         text: 'neustále hledat zlepšení',
         nextQuestionId: 10,
-        position: 'datova-analyticka',
+        position: 'analyticka',
       },
       {
         text: 'hledat a všímat si drobných detailů',
@@ -224,12 +224,12 @@ export const questionaireData = {
       {
         text: 'ANO',
         nextQuestionId: null,
-        position: 'ux-designerka',
+        position: 'ux',
       },
       {
         text: 'NE',
         nextQuestionId: null,
-        position: 'front-endacka',
+        position: 'frontend',
       },
     ],
   },
@@ -241,7 +241,7 @@ export const questionaireData = {
       {
         text: 'Prohlédnout si seznam hostů a přemýšlet nad zkušenostmi z minulých setkání, abyste vyhodnotili, co fungovalo dobře a co udláte pro změnu tentokrát ůplně jinak',
         nextQuestionId: null,
-        position: 'datova-analyticka',
+        position: 'analyticka',
       },
       {
         text: 'Projít si kontrolní seznam, ujistit se, že je vše v pořádku, zkontrolovat případné problémy a ujistit se, že jsou všechny aktivity, materiál na párty připraveny perfektně a nic k párty nechybí. ',
