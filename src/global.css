@@ -13,8 +13,13 @@ body {
   /*   background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, hsl(276, 64%, 65%)); */
   background: linear-gradient(0.25turn, #0c3e71, hsl(276deg 86.21% 14.03%));
   position: relative;
+  overflow-x: hidden;
 }
 
 #app {
   min-height: 100vh;
+}
+
+.text--center {
+  text-align: center;
 }
