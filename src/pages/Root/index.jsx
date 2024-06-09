@@ -6,7 +6,9 @@ export const Root = () => {
   return (
     <>
       <Header />
-      <Outlet />
+      <div className="outlet">
+        <Outlet />
+      </div>
       <Footer />
     </>
   );

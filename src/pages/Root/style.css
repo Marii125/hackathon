@@ -12,3 +12,7 @@
   background-size: contain;
 }
  */
+.outlet {
+  width: 100vw;
+  padding: 1.3rem;
+}

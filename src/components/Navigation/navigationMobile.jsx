@@ -1,6 +1,6 @@
-import { Link } from "react-router-dom";
-import "./style.css";
-import { useState } from "react";
+import { Link } from 'react-router-dom';
+import './style.css';
+import { useState } from 'react';
 export const NavigationMobile = () => {
   const [open, setOpen] = useState(false);
 
@@ -12,7 +12,7 @@ export const NavigationMobile = () => {
     setOpen(false);
   };
 
-  const openClass = open ? "navigation__mobile-menu--open" : "";
+  const openClass = open ? 'navigation__mobile-menu--open' : '';
 
   return (
     <nav className="navigation__mobile">
@@ -21,15 +21,15 @@ export const NavigationMobile = () => {
       </button>
       <ul
         onClick={onCloseMenu}
-        className={"navigation__mobile-menu " + openClass}
+        className={'navigation__mobile-menu ' + openClass}
       >
         <li className="nav__li">
-          {" "}
+          {' '}
           <span className="nav__link">X</span>
         </li>
         <li className="nav__li">
           <Link to="/" className="nav__link">
-            Home{" "}
+            Home{' '}
           </Link>
         </li>
         <li className="nav__li">
@@ -39,12 +39,12 @@ export const NavigationMobile = () => {
         </li>
         <li className="nav__li">
           <Link to="/questionnaire" className="nav__link">
-            questionnaire
+            Questionnaire
           </Link>
         </li>
         <li className="nav__li">
           <Link to="/position" className="nav__link">
-            position
+            Positions
           </Link>
         </li>
       </ul>
