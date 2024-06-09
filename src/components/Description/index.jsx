@@ -1,3 +1,7 @@
+import "./styles.css";
+
+
+
 export const Description = ({ description, title }) => {
   return (
     <div>

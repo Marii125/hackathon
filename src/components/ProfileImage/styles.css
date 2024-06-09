@@ -1,0 +1,14 @@
+.image-position {
+  border-radius: 50%;
+  width: 100%;
+  max-width: 200px;
+  height: auto;
+  display: block;
+  margin: auto;
+  border: 3px solid rgba(0, 0, 0, 0);
+
+}
+
+.image-position:hover {
+  border: 3px solid #6f6bb3;
+}
