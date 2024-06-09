@@ -18,7 +18,7 @@ export const Home = () => {
   }, []);
   return (
     <>
-      <div className="mouse"></div>
+      {/*   <div className="mouse"></div> */}
       <div>
         <div className="container">
           <div className="text--center">

@@ -1,3 +1,4 @@
+import './style.css';
 export const Question = ({ text }) => {
-  return <h2>{text}</h2>;
+  return <div className="question">{text}</div>;
 };

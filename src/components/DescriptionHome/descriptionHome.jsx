@@ -11,7 +11,7 @@ export const DescriptionalHome = () => {
       <h3 className="caption">JAK NA TO?</h3>
       <p className="description">
         {' '}
-        'Odpovídej popravdě, zvol takovou odpoveď, která je ti nejbližší.'
+        Odpovídej popravdě, zvol takovou odpoveď, která je ti nejbližší.
       </p>
       <Link to="/questionnaire" className="link__dotaznik">
         CHCI SPUSTIT DOTAZNÍK!
