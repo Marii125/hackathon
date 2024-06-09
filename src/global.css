@@ -14,6 +14,7 @@ body {
   background: linear-gradient(0.25turn, #0c3e71, hsl(276deg 86.21% 14.03%));
   position: relative;
   overflow-x: hidden;
+
 }
 
 #app {
@@ -23,3 +24,5 @@ body {
 .text--center {
   text-align: center;
 }
+
+

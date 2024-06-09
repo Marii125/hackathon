@@ -2,8 +2,8 @@
   margin: 0;
   position: absolute;
   justify-content: center;
-  --x: 0px;
-  --y: 0px;
+  --x: 0;
+  --y: 0;
   background-image: url(/pages/Home/img/back.png);
   background-size: 100%;
   width: 100vw;

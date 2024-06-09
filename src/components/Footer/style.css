@@ -6,6 +6,6 @@
   color: white;
   text-align: center;
   background: linear-gradient(0.25turn, #1e3e5e, hsl(276deg 86.21% 14.03%));
-  box-shadow: 0px 2px 8px 0px #00000054;
+  box-shadow: 0 2px 8px 0 #00000054;
   /*  background: linear-gradient(0.25turn, #015c81, #000a48, #491777); */
 }
