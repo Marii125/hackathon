@@ -8,6 +8,10 @@ export const NavigationMobile = () => {
     setOpen(true);
   };
 
+  const onCloseMenu = () => {
+    setOpen(false);
+  };
+
   const openClass = open ? "navigation__mobile-menu--open" : "";
 
   return (
@@ -15,7 +19,10 @@ export const NavigationMobile = () => {
       <button onClick={onOpenMenu} className="navigation__mobile__hamburger">
         <i className="fa-solid fa-bars"></i>
       </button>
-      <ul className={"navigation__mobile-menu " + openClass}>
+      <ul
+        onClick={onCloseMenu}
+        className={"navigation__mobile-menu " + openClass}
+      >
         <li className="nav__li">
           {" "}
           <span className="nav__link">X</span>
