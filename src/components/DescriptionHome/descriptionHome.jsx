@@ -9,7 +9,7 @@ export const DescriptionalHome = () => {
         nejvíce hodí.
       </p>
       <h3 className="caption">JAK NA TO?</h3>
-      <p className="home--description">
+      <p className="description">
         {' '}
         Odpovídej popravdě, zvol takovou odpoveď, která je ti nejbližší.
       </p>
