@@ -1,15 +1,20 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
 
-
-
 * {
   font-optical-sizing: auto;
   font-family: "Raleway", sans-serif;
   font-style: normal;
+  margin: 0;
+  padding: 0;
 }
 
 body {
   margin: 0;
   /*   background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, hsl(276, 64%, 65%)); */
   background: linear-gradient(0.25turn, #0c3e71, hsl(276deg 86.21% 14.03%));
+  position: relative;
+}
+
+#app {
+  min-height: 100vh;
 }

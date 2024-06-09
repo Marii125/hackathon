@@ -1,11 +1,11 @@
 import { Footer } from '../../components/Footer/footer';
-import { Navigation } from '../../components/navigation/navigation';
+import { Header } from '../../components/Header/header';
 import './style.css';
 import { Link, Outlet } from 'react-router-dom';
 export const Root = () => {
   return (
     <>
-      <Navigation />
+      <Header />
       <Outlet />
       <Footer />
     </>
