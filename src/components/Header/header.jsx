@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import './style.css';
-import { Navigation } from '../navigation/navigation';
+import { Navigation } from '../Navigation/navigation';
 export const Header = () => {
   return (
     <header className="header">
