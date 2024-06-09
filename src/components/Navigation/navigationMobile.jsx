@@ -4,7 +4,7 @@ export const NavigationMobile = () => {
   return (
     <nav className="navigation__mobile">
       <button className="navigation__mobile__hamburger">
-        <i class="fa-solid fa-bars"></i>
+        <i className="fa-solid fa-bars"></i>
       </button>
       <ul className="navigation__mobile-menu">
         <li className="nav__li">
