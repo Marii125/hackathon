@@ -1,0 +1,27 @@
+.mouse {
+  margin: 0;
+  position: absolute;
+  justify-content: center;
+  --x: 0px;
+  --y: 0px;
+  background-image: url(/pages/Home/img/back.png);
+  background-size: 100%;
+  width: 100vw;
+  height: 100vh;
+  background-position: var(--x) var(--y);
+
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+  margin-top: 15%;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+
+}
+
+.text--center {
+  text-align: center;
+}

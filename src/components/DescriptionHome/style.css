@@ -1,0 +1,33 @@
+.description {
+  font-size: 20px;
+  color: #fff;
+
+}
+
+.description h3 {
+  color: #fff;
+}
+
+.caption {
+  font-weight: 800;
+  color: #fff;
+}
+
+
+i {
+  margin-left: 10px;
+}
+
+
+.link__dotaznik {
+  display: block;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 225px;
+  padding: 10px;
+  border-radius: 10px;
+  background: linear-gradient(0.25turn, #379bc5, #7581c9, #7e4aaf);
+  color: #fff;
+  font-weight: bold;
+  text-decoration-line: none;
+}
