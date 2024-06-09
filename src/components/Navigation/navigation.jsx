@@ -1,7 +1,12 @@
-import './style.css';
-import { NavigationDesktop } from './navigationDesktop';
-import { NavigationMobile } from './navigationMobile';
+import "./style.css";
+import { NavigationDesktop } from "./navigationDesktop";
+import { NavigationMobile } from "./navigationMobile";
 
 export const Navigation = () => {
-  return <NavigationMobile />;
+  return (
+    <>
+      <NavigationDesktop />
+      <NavigationMobile />
+    </>
+  );
 };

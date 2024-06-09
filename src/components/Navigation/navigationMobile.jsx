@@ -1,19 +1,19 @@
-import { Link } from 'react-router-dom';
-import './style.css';
+import { Link } from "react-router-dom";
+import "./style.css";
 export const NavigationMobile = () => {
   return (
-    <nav>
+    <nav className="navigation__mobile">
       <button className="navigation__mobile__hamburger">
         <i class="fa-solid fa-bars"></i>
       </button>
-      <ul className="navigation__mobile">
+      <ul className="navigation__mobile-menu">
         <li className="nav__li">
-          {' '}
+          {" "}
           <span className="nav__link">X</span>
         </li>
         <li className="nav__li">
           <Link to="/" className="nav__link">
-            Home{' '}
+            Home{" "}
           </Link>
         </li>
         <li className="nav__li">
