@@ -4,6 +4,7 @@ import { Question } from '../../components/Question/question';
 import { Answer } from '../../components/Answer/answer';
 import { History } from '../../components/History/history';
 import { Result } from '../../components/Result/result';
+import './style.css';
 
 export const Questionnaire = () => {
   const [questionId, setQuestionId] = useState(0);
@@ -42,7 +43,7 @@ export const Questionnaire = () => {
   return questionObject ? (
     <div>
       <Question text={questionObject.question} />
-      <div>
+      <div className="answers-list">
         {questionObject.answers.map((answer) => {
           return (
             <Answer
