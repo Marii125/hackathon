@@ -23,12 +23,12 @@ export const Navigation = () => {
             </li>
             <li className="nav__li">
               <Link to="/questionnaire" className="nav__link">
-                questionnaire
+                Questionnaire
               </Link>
             </li>
             <li className="nav__li">
               <Link to="/position" className="nav__link">
-                position
+                Positions
               </Link>
             </li>
           </ul>
@@ -48,12 +48,12 @@ export const Navigation = () => {
           </li>
           <li className="nav__li">
             <Link to="/questionnaire" className="nav__link">
-              questionnaire
+              Questionnaire
             </Link>
           </li>
           <li className="nav__li">
             <Link to="/position" className="nav__link">
-              position
+              Positions
             </Link>
           </li>
         </ul>

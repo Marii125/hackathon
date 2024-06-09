@@ -1,3 +1,8 @@
+import "./styles.css";
+
 export const ProfileImage = ({ imagepath }) => {
-  return <img src={imagepath} alt="profile photo of woman" />;
+
+  console.log(imagepath)
+  return <img className="image-position" src={imagepath} alt="profile photo of woman" />;
+  
 };
