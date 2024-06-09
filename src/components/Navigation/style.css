@@ -34,6 +34,11 @@
   z-index: 1000;
   background-color: black;
   transform: translate(100vw, 0px);
+  transition: transform 1s ease-in-out;
+}
+
+.navigation__mobile-menu--open {
+  transform: translate(0px, 0px);
 }
 
 .navigation__mobile__hamburger i {

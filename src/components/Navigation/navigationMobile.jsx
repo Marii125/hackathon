@@ -1,12 +1,21 @@
 import { Link } from "react-router-dom";
 import "./style.css";
+import { useState } from "react";
 export const NavigationMobile = () => {
+  const [open, setOpen] = useState(false);
+
+  const onOpenMenu = () => {
+    setOpen(true);
+  };
+
+  const openClass = open ? "navigation__mobile-menu--open" : "";
+
   return (
     <nav className="navigation__mobile">
-      <button className="navigation__mobile__hamburger">
+      <button onClick={onOpenMenu} className="navigation__mobile__hamburger">
         <i className="fa-solid fa-bars"></i>
       </button>
-      <ul className="navigation__mobile-menu">
+      <ul className={"navigation__mobile-menu " + openClass}>
         <li className="nav__li">
           {" "}
           <span className="nav__link">X</span>
