@@ -6,9 +6,12 @@
   display: block;
   margin: auto;
   border: 3px solid rgba(0, 0, 0, 0);
-
+  filter: grayscale(100%);
 }
 
 .image-position:hover {
   border: 3px solid #6f6bb3;
+  filter: none;
 }
+
+
