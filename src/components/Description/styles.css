@@ -1,8 +1,14 @@
 h3{
    color: #f67f00;
+   margin: 1rem;
 }
 
-p{
-line-height: 1.2rem;
+.description--position{
+line-height: 1.5rem;
 
+}
+
+.description--title {
+   color: #f67f00;
+  text-align: center;
 }

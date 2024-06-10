@@ -60,6 +60,6 @@ export const Positions = {
     imagepath: './profileImage/cybersecurity_color.jpg',
     title: 'Analytička kyberbezpečnosti',
     description:
-      'chrání digitální data organizace před kybernetickými hrozbami. Sleduje systémy kvůli narušení bezpečnosti, analyzuje hrozby a rychle reaguje na vzniknuté problémy. Jeho práce zahrnuje provádění bezpečnostních hodnocení, sledování nových kybernetických hrozeb, a vzdělávání zaměstnanců o nejlepších postupech. Potřebuje znalost bezpečnostních nástrojů a silné analytické schopnosti.',
+      'chrání digitální data organizace před kybernetickými hrozbami. Sleduje systémy kvůli narušení bezpečnosti, analyzuje hrozby a rychle reaguje na vzniknuté problémy. Její práce zahrnuje provádění bezpečnostních hodnocení, sledování nových kybernetických hrozeb, a vzdělávání zaměstnanců o nejlepších postupech. Potřebuje znalost bezpečnostních nástrojů a silné analytické schopnosti.',
   },
 };
