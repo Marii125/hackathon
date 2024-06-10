@@ -12,7 +12,8 @@
   background-size: contain;
 }
  */
+
 .outlet {
-  width: 100vw;
-  padding: 1.3rem;
+  min-height: calc(100vh - 130px);
+  margin-bottom: 30px;
 }

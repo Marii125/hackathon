@@ -7,13 +7,13 @@
   font-size: 27px;
   align-items: center;
   justify-content: space-between;
-  box-shadow:0 2px 8px 0 #00000054;
+  box-shadow: 0 2px 8px 0 #00000054;
   z-index: 1;
 }
 
 
 
-.header__logo {
+.header__logo .nav__link {
   margin-left: 15px;
   font-weight: 750;
   color: #d5e2f2;

@@ -9,8 +9,16 @@ export const Home = () => {
 
     document.addEventListener('mousemove', (e) => {
       if (mouseEl !== null) {
-        let x = -e.clientX / 2;
-        let y = -e.clientY / 2;
+        let clientX = e.clientX;
+        if (clientX === 0) {
+          clientX = 1;
+        }
+        let clientY = e.clientY;
+        if (clientY === 0) {
+          clientY = 1;
+        }
+        let x = -clientX / 2;
+        let y = -clientY / 2;
         mouseEl.style.setProperty('--x', x + 'px');
         mouseEl.style.setProperty('--y', y + 'px');
       }

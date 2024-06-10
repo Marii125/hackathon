@@ -23,9 +23,11 @@ export const NavigationMobile = () => {
         onClick={onCloseMenu}
         className={'navigation__mobile-menu ' + openClass}
       >
-        <li className="nav__li">
+        <li className="nav__li nav__li--cross">
           {' '}
-          <span className="nav__link">X</span>
+          <span className="nav__link">
+            <i className="fa-solid fa-xmark"></i>
+          </span>
         </li>
         <li className="nav__li">
           <Link to="/" className="nav__link">
