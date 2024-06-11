@@ -1,10 +1,8 @@
 import { ProfileImage } from '../ProfileImage';
 import { Description } from '../Description';
-import "./styles.css";
+import './styles.css';
 
-
-
-export const Profile = ({imagepath, description, title}) => {
+export const Profile = ({ imagepath, description, title }) => {
   return (
     <div className="about-position">
       <ProfileImage imagepath={imagepath} />

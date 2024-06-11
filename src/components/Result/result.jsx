@@ -29,13 +29,11 @@ export const Result = ({ score }) => {
   // );
 
   return (
-
-
-   <Profile
-   
+        <Profile
       imagepath={positionDetail.imagepath}
       title={positionDetail.title}
       description={positionDetail.description}
     />
   );
 };
+
