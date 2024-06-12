@@ -1,14 +1,21 @@
-h3{
+h3 {
    color: #f67f00;
    margin: 1rem;
 }
 
-.description--position{
-line-height: 1.5rem;
+.description__position {
+   line-height: 1.5rem;
 
 }
 
-.description--title {
+.description__title {
    color: #f67f00;
-  text-align: center;
+   text-align: center;
+}
+
+@media screen and (min-width: 500px) {
+
+   .description__position {
+      margin-bottom: 0px;
+   }
 }

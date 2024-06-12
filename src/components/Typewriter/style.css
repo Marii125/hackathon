@@ -22,7 +22,7 @@
   animation:
     typing 3.5s steps(30, end),
     blink-caret .3s step-end infinite;
-  font-size: 30px;
+  font-size: 17px;
 }
 
 
@@ -49,4 +49,23 @@
   50% {
     border-color: orange;
   }
+}
+
+
+
+
+@media only screen and (min-width: 768px) {
+
+  .typewriter * {
+    font-size: 28px;
+  }
+
+}
+
+@media only screen and (min-width: 991px) {
+
+  .typewriter * {
+    font-size: 30px;
+  }
+
 }

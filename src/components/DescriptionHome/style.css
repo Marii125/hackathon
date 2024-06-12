@@ -1,13 +1,12 @@
+.container {
+  padding: 10px;
+}
+
 .description {
-  font-size: 20px;
+  font-size: 16px;
   color: #fff;
-<<<<<<< Updated upstream
-  line-height: ;
-=======
   margin-top: 1em;
   margin-bottom: 1em;
->>>>>>> Stashed changes
-
 }
 
 .description h3 {
@@ -15,13 +14,10 @@
 }
 
 .caption {
-  font-weight: 800;
+  font-size: 16px;
+  font-weight: 700;
+
   color: #fff;
-}
-
-
-i {
-  margin-left: 10px;
 }
 
 
@@ -29,11 +25,28 @@ i {
   display: block;
   text-align: center;
   margin: 0 auto;
-  max-width: 225px;
+  max-width: 215px;
   padding: 10px;
   border-radius: 10px;
   background: linear-gradient(0.25turn, #379bc5, #7581c9, #7e4aaf);
   color: #fff;
   font-weight: bold;
   text-decoration-line: none;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+  .description {
+    font-size: 18px;
+
+  }
+
+  .caption {
+    font-weight: 800;
+    font-size: 20px;
+  }
+
+
+
 }
