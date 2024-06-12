@@ -1,0 +1,21 @@
+.congratulation{
+  margin: 1rem;
+  color: #f0f8ff;
+  font-style: italic;
+
+}
+h4{
+  color: #e99ab2;
+
+
+}
+
+.congratulation--summary--div {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+
+}

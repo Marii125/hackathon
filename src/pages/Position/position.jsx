@@ -13,7 +13,7 @@ export const Position = () => {
       return (
 <div className="positions--container">
   <div>
-        <Profile 
+        <Profile
         key={creator.title}
         imagepath={creator.imagepath} 
         title={creator.title}

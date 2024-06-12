@@ -3,3 +3,16 @@
   flex-direction: column;
   gap: 30px;
 }
+
+.questionery--primary--btn {}
+
+.questionery--secondary--btn {}
+
+.result--final--summary{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+
+}
