@@ -61,8 +61,10 @@ export const Questionnaire = () => {
     <div className='result--final--summary'>
       <Congratulation/>
       <Result score={score} />
+
+      <div className='History--results--listOfQuestions'>
       <HistoryIntro/>
       <History dataHistory={history} />
-    </div>
+    </div></div>
   );
 };
