@@ -3,7 +3,7 @@
   flex-direction: column;
 }
 
-.about-us_container--border {
+.about-us__container--border {
   border-bottom: 1px solid #fff;
   margin: 15px 25px;
   padding-bottom: 30px;
@@ -19,11 +19,11 @@
     flex-direction: row;
   }
 
-  .about-us_container {
+  .about-us__container {
     position: relative;
   }
 
-  .about-us_container--border {
+  .about-us__container--border {
     max-width: 500px;
 
   }

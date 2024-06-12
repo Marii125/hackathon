@@ -8,7 +8,7 @@ export const Position = () => {
       {Object.values(Positions).map((creator) => {
         return (
           <div className="positions__container">
-            <div className="positions__padding ">
+            <div className="positions__box ">
               <Profile
                 key={creator.title}
                 imagepath={creator.imagepath}

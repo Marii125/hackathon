@@ -6,22 +6,22 @@ export const NavigationDesktop = () => {
       <ul>
         <li className="nav__li">
           <Link to="/" className="nav__link">
-            Home{' '}
+            DOMŮ{' '}
           </Link>
         </li>
         <li className="nav__li">
           <Link to="/about-us" className="nav__link">
-            About us
+            O NÁS
           </Link>
         </li>
         <li className="nav__li">
           <Link to="/questionnaire" className="nav__link">
-            Questionnaire
+            DOTAZNÍK
           </Link>
         </li>
         <li className="nav__li">
           <Link to="/position" className="nav__link">
-            Positions
+            POZICE
           </Link>
         </li>
       </ul>

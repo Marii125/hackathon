@@ -1,7 +1,10 @@
 import './style.css';
 export const Answer = ({ answer, onChangeAnswer }) => {
   return (
-    <button className="answer" onClick={() => onChangeAnswer(answer)}>
+    <button
+      className="answers-list__answer"
+      onClick={() => onChangeAnswer(answer)}
+    >
       {answer.text}
     </button>
   );

@@ -10,7 +10,7 @@
 }
 
 
-.positions__padding {
+.positions__box {
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -34,9 +34,7 @@
     border-bottom: none;
   }
 
-  .positions__padding {
-    padding-left: 15px;
-    padding-right: 15px;
+  .positions__box {
     border-bottom: 1px solid #fff;
   }
 }
