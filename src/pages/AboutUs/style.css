@@ -1,0 +1,31 @@
+.about-us {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-us_container--border {
+  border-bottom: 1px solid #fff;
+  margin: 15px 25px;
+  padding-bottom: 30px;
+
+
+}
+
+
+
+@media only screen and (min-width: 991px) {
+  .about-us {
+    justify-content: space-evenly;
+    flex-direction: row;
+  }
+
+  .about-us_container {
+    position: relative;
+  }
+
+  .about-us_container--border {
+    max-width: 500px;
+
+  }
+
+}

@@ -1,19 +1,12 @@
 .profile__info {
   color: #fff;
   margin: 2rem;
-  display: flex;
-  justify-content: center;
+
 }
 
-.about-position {
+.result .profile__info {
   color: aliceblue;
-  text-align: left;
-  margin: 2rem;
   max-width: 250px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 }
 
 .nav__link--git i {
@@ -26,8 +19,6 @@
 
 }
 
-
-.about-us__container {}
 
 
 @media only screen and (min-width: 991px) {

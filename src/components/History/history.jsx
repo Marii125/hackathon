@@ -1,11 +1,10 @@
 import { Answer } from '../Answer/answer';
 import { Question } from '../Question/question';
 import { questionaireData } from '../../data/questionnaireData';
-import './style.css';
 
 export const History = ({ dataHistory }) => {
   return (
-    <div className="history">
+    <div className="history__info--questionnaire">
       {dataHistory.current.map((questionLog) => {
         const questionId = questionLog.id;
         const questionObject = questionaireData[questionId];
