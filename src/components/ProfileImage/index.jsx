@@ -4,7 +4,7 @@ export const ProfileImage = ({ imagepath }) => {
   console.log(imagepath);
   return (
     <img
-      className="position__image"
+      className="profile__image"
       src={imagepath}
       alt="profile photo of woman"
     />

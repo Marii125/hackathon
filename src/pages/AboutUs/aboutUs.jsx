@@ -6,7 +6,7 @@ export const AboutUs = () => {
     <div className="about-us">
       {Object.values(profilesData).map((creator) => {
         return (
-          <div className="about-us_container about-us_container--border">
+          <div className="about-us__container about-us__container--border">
             <Profile
               key={creator.title}
               imagepath={creator.imagepath}

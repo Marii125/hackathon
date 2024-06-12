@@ -61,8 +61,10 @@ export const Questionnaire = () => {
     <div className="result">
       <Congratulation />
       <Result score={score} />
-      <HistoryIntro />
-      <History dataHistory={history} />
+      <div className="history">
+        <HistoryIntro />
+        <History dataHistory={history} />
+      </div>
     </div>
   );
 };

@@ -29,7 +29,7 @@ export const Home = () => {
       <div className="mouse"></div>
       <div>
         <div className="container">
-          <div className="text--center">
+          <div className="container__text--center">
             <Typewriter text={'CHCEŠ PORADIT NA JAKOU POZICI SE HODÍŠ?'} />
           </div>
           <DescriptionalHome />

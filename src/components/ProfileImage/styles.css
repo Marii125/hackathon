@@ -1,4 +1,4 @@
-.position__image {
+.profile__image {
   border-radius: 50%;
   width: 100%;
   max-width: 200px;
@@ -9,7 +9,7 @@
   filter: grayscale(100%);
 }
 
-.position__image:hover {
+.profile__image:hover {
   border: 3px solid #6f6bb3;
   filter: none;
 }

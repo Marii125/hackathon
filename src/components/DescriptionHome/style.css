@@ -1,19 +1,15 @@
-.container {
-  padding: 10px;
-}
-
-.description {
+.container__description {
   font-size: 16px;
   color: #fff;
   margin-top: 1em;
   margin-bottom: 1em;
 }
 
-.description h3 {
+.container__description h3 {
   color: #fff;
 }
 
-.caption {
+.container__caption {
   font-size: 16px;
   font-weight: 700;
 
@@ -21,7 +17,7 @@
 }
 
 
-.link__dotaznik {
+.container__link-questionnaire {
   display: block;
   text-align: center;
   margin: 0 auto;
@@ -37,12 +33,12 @@
 
 @media only screen and (min-width: 768px) {
 
-  .description {
+  .container__description {
     font-size: 18px;
 
   }
 
-  .caption {
+  .container__caption {
     font-weight: 800;
     font-size: 20px;
   }
