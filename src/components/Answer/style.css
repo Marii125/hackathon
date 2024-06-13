@@ -6,13 +6,12 @@
   box-sizing: border-box;
   color: #fff;
   cursor: pointer;
-  height: 48px;
+  height: fit-content;
   justify-content: center;
   line-height: 1;
   list-style: none;
   overflow: hidden;
-  padding-left: 16px;
-  padding-right: 16px;
+  padding: 16px;
   position: relative;
   text-align: left;
   text-decoration: none;
@@ -25,21 +24,22 @@
   font-size: 16px;
   text-align: center;
   background-color: transparent;
+  line-height: 1.7rem;
  }
 
 .answers-list__answer:focus {
-  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+ 
   background-color: #f88dad;
 }
 
 .answers-list__answer:hover {
-  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+
   transform: translateY(-2px);
   background-color: #e18f00;
 }
 
 .answers-list__answer:active {
-  box-shadow: #3c4fe0 0 3px 7px inset;
+
   transform: translateY(2px);
   background-color: #f88dad;
 }
