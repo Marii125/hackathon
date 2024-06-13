@@ -6,10 +6,12 @@
    color: #f67f00;
    text-align: center;
    margin: 1rem;
+   font-size: 27px;
 }
 
 .description__position {
    line-height: 1.5rem;
+   font-size: 18px;
 
 }
 
