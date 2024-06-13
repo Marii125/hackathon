@@ -7,7 +7,7 @@
   background-image: url(/pages/Home/img/back.png);
   background-size: 100%;
   width: 100vw;
-  height: 100vh;
+  height: calc(100vh - 50px);
   background-position: var(--x) var(--y);
 
 }
@@ -18,5 +18,5 @@
   position: relative;
   z-index: 1;
   text-align: center;
-
+  padding: 10px;
 }

@@ -1,4 +1,4 @@
-import { Profile } from '../Profile/index';
+import { Profile } from '../Profile/profile';
 import { Positions } from '../../data/dataPositionsCreator';
 
 const findPositionWithMaxPoints = (score) => {
@@ -29,11 +29,10 @@ export const Result = ({ score }) => {
   // );
 
   return (
-        <Profile
+    <Profile
       imagepath={positionDetail.imagepath}
       title={positionDetail.title}
       description={positionDetail.description}
     />
   );
 };
-

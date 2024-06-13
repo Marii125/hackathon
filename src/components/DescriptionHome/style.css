@@ -1,34 +1,48 @@
-.description {
-  font-size: 20px;
+.container__description {
+  font-size: 16px;
   color: #fff;
-  line-height: ;
-
+  margin-top: 1em;
+  margin-bottom: 1em;
 }
 
-.description h3 {
-  color: #fff;
-}
-
-.caption {
-  font-weight: 800;
+.container__description h3 {
   color: #fff;
 }
 
+.container__caption {
+  font-size: 16px;
+  font-weight: 700;
 
-i {
-  margin-left: 10px;
+  color: #fff;
 }
 
 
-.link__dotaznik {
+.container__link-questionnaire {
   display: block;
   text-align: center;
   margin: 0 auto;
-  max-width: 225px;
+  max-width: 215px;
   padding: 10px;
   border-radius: 10px;
   background: linear-gradient(0.25turn, #379bc5, #7581c9, #7e4aaf);
   color: #fff;
   font-weight: bold;
   text-decoration-line: none;
+}
+
+
+@media only screen and (min-width: 768px) {
+
+  .container__description {
+    font-size: 18px;
+
+  }
+
+  .container__caption {
+    font-weight: 800;
+    font-size: 20px;
+  }
+
+
+
 }

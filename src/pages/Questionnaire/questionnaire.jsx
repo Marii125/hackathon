@@ -4,7 +4,7 @@ import { Question } from '../../components/Question/question';
 import { Answer } from '../../components/Answer/answer';
 import { History } from '../../components/History/history';
 import { Result } from '../../components/Result/result';
-import { Congratulation } from '../../components/Congratulation/congratulation'
+import { Congratulation } from '../../components/Congratulation/congratulation';
 import { HistoryIntro } from '../../components/HistoryIntro/historyintro';
 import './style.css';
 
@@ -58,13 +58,13 @@ export const Questionnaire = () => {
       </div>
     </div>
   ) : (
-    <div className='result--final--summary'>
-      <Congratulation/>
+    <div className="result">
+      <Congratulation />
       <Result score={score} />
-
-      <div className='History--results--listOfQuestions'>
-      <HistoryIntro/>
-      <History dataHistory={history} />
-    </div></div>
+      <div className="history">
+        <HistoryIntro />
+        <History dataHistory={history} />
+      </div>
+    </div>
   );
 };

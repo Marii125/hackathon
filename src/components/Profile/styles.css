@@ -1,14 +1,40 @@
-.about-position {
-  color: aliceblue;
-  text-align: left;
+.profile__info {
+  color: #fff;
   margin: 2rem;
-  max-width: 250px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
 
- 
+}
+
+.result .profile__info {
+  color: aliceblue;
+  max-width: 250px;
+}
+
+.nav__link--git i {
+  font-weight: 400;
+  font-size: 45px;
+  color: #fff;
+  text-align: center;
+  width: 100%;
+  margin-top: 20px;
+
 }
 
 
+
+@media only screen and (min-width: 991px) {
+
+  .about-us {
+    flex-direction: column;
+  }
+
+  .profile__info--padding {
+    padding-bottom: 50px;
+  }
+
+  .nav__link--git i {
+    position: absolute;
+    bottom: 40px;
+    left: 0;
+  }
+
+}
