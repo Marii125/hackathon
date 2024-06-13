@@ -4,13 +4,6 @@
   gap: 30px;
 }
 
-.questionnary--primary--btn {
-  background-color: #A5ABBD;
-}
-
-.questionnary--secondary--btn {
-  background-color: #A35566;
-}
 
 .result {
   display: flex;
