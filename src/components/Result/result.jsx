@@ -33,6 +33,8 @@ export const Result = ({ score }) => {
       imagepath={positionDetail.imagepath}
       title={positionDetail.title}
       description={positionDetail.description}
+      git={null}
+      linkedin={null}
     />
   );
 };
