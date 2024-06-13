@@ -4,14 +4,13 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 2rem;
 
 
 }
 
-h4 {
-  color: #e99ab2;
-
-
+h3 {
+  color: #f7b84c;
 }
 
 .result__congratulation--text {
