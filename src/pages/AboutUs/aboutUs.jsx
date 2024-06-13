@@ -13,6 +13,7 @@ export const AboutUs = () => {
               title={creator.title}
               description={creator.description}
               git={creator.gitHub}
+              linkedin={creator.linkedin}
             />
           </div>
         );

@@ -1,5 +1,10 @@
-h3 {
+.about-us__container .description {
+   min-height: 300px;
+}
+
+.description__title {
    color: #f67f00;
+   text-align: center;
    margin: 1rem;
 }
 
@@ -8,10 +13,7 @@ h3 {
 
 }
 
-.description__title {
-   color: #f67f00;
-   text-align: center;
-}
+
 
 @media screen and (min-width: 500px) {
 
