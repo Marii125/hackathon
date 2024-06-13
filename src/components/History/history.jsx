@@ -1,6 +1,7 @@
 import { Answer } from '../Answer/answer';
 import { Question } from '../Question/question';
 import { questionaireData } from '../../data/questionnaireData';
+import './styles.css';
 
 export const History = ({ dataHistory }) => {
   return (
@@ -12,7 +13,7 @@ export const History = ({ dataHistory }) => {
         const answer = questionLog.answer;
 
         return (
-          <div key={answer}>
+          <div className="result--history--list" key={answer}>
             <Question text={questionObject.question} />
             <Answer answer={{ text: answer }} />
           </div>
