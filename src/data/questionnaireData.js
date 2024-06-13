@@ -79,7 +79,7 @@ export const questionaireData = {
   },
   3: {
     id: 3,
-    question: 'Co na tebe nejvíce sedí',
+    question: 'z následujicích činností na tebe nejvíce sedí tendence',
     answers: [
       {
         text: 'často při aplikacích nebo surfování na internetu vidíš, co by šlo, kde zlepšit',
