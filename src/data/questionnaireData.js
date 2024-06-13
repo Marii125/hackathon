@@ -45,7 +45,7 @@ export const questionaireData = {
         position: 'ux',
       },
       {
-        text: 'vnímáš své kreativní nadání, ale zároveň máš ráda především ve věcech i práci řád a systém',
+        text: 'vnímáš své kreativní nadání, ale zároveň máš ráda především ve věcech i v práci řád a systém',
         nextQuestionId: 3,
         position: 'frontend',
       },
@@ -56,7 +56,7 @@ export const questionaireData = {
     question: 'Co z následujících tvrzení tě nejvíc vystihuje?',
     answers: [
       {
-        text: 'umíš poskládat kousky problému do širších souvislostí',
+        text: 'umíš poskládat malé kousky problému do širších souvislostí',
         nextQuestionId: 4,
         position: 'analyticka',
       },
@@ -79,10 +79,10 @@ export const questionaireData = {
   },
   3: {
     id: 3,
-    question: 'Jsi schopna',
+    question: 'z následujicích činností na tebe nejvíce sedí tendence',
     answers: [
       {
-        text: 'vcítít se do potřeb a preferenci potenciálních uživatelů',
+        text: 'často při aplikacích nebo surfování na internetu vidíš, co by šlo, kde zlepšit',
         nextQuestionId: 5,
         position: 'ux',
       },
@@ -92,7 +92,7 @@ export const questionaireData = {
         position: 'ux',
       },
       {
-        text: 'efektivně řídit svůj čas, kriticky myslet a komunikovat s ostatními',
+        text: 'plánovat si práci předem a důsledně plán dodržovat',
         nextQuestionId: 5,
         position: 'frontend',
       },
@@ -105,7 +105,7 @@ export const questionaireData = {
   },
   4: {
     id: 4,
-    question: 'Máš více..',
+    question: 'Máš více... než',
     answers: [
       {
         text: 'kladný vztah k matematice',
@@ -123,7 +123,7 @@ export const questionaireData = {
         position: 'analyticka',
       },
       {
-        text: ' často věci zpochybňuješ a tudíž je potřebuješ posunout na nějakou lepší ůroveň',
+        text: ' často věci zpochybňuješ, a tudíž je potřebuješ posunout na nějakou lepší ůroveň',
         nextQuestionId: 6,
         position: 'testerka',
       },
@@ -219,7 +219,7 @@ export const questionaireData = {
   9: {
     id: 9,
     question:
-      'Je pro tebe samozřejmostí vzít tužku do ruky a něco si naskicovat, když někomu něco vysvětluješ',
+      'Je pro tebe samozřejmostí vzít tužku do ruky a něco si naskicovat, když někomu něco vysvětluješ?',
     answers: [
       {
         text: 'ANO',
@@ -239,7 +239,7 @@ export const questionaireData = {
       'Představ si, že pomáháš kamarádovi s přípravou na večírek, který úkol preferuješ?',
     answers: [
       {
-        text: 'Prohlédnout si seznam hostů a přemýšlet nad zkušenostmi z minulých setkání, abyste vyhodnotili, co fungovalo dobře a co udláte pro změnu tentokrát ůplně jinak',
+        text: 'Prohlédnout si seznam hostů a přemýšlet nad zkušenostmi z minulých setkání, abyste vyhodnotili, co fungovalo dobře a co uděláte pro změnu tentokrát ůplně jinak',
         nextQuestionId: null,
         position: 'analyticka',
       },
