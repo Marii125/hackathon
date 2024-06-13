@@ -15,6 +15,7 @@ export const Position = () => {
                 title={creator.title}
                 description={creator.description}
                 git={null}
+                linkedin={null}
               />
             </div>
           </div>
