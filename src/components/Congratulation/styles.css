@@ -9,13 +9,15 @@
 
 }
 
-h3 {
+h2 {
   color: #f67f00;
+  
 }
 
 .result__congratulation--text {
-  margin: 0.1rem;
+  margin: 0.7rem;
   color: #f0f8ff;
+  font-size: 20px;
  
 
 }
