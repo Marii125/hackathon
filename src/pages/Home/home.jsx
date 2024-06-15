@@ -1,32 +1,18 @@
-import { useEffect } from 'react';
+import { useState } from 'react';
+import { useOutletContext } from 'react-router-dom';
 import './style.css';
 import { Typewriter } from '../../components/Typewriter/typewriter';
 import { DescriptionalHome } from '../../components/DescriptionHome/descriptionHome';
 
 export const Home = () => {
-  useEffect(() => {
-    const mouseEl = document.querySelector('.mouse');
+  const [coordsX, setCoordsX, coordsY, setCoordsY] = useOutletContext();
 
-    document.addEventListener('mousemove', (e) => {
-      if (mouseEl !== null) {
-        let clientX = e.clientX;
-        if (clientX === 0) {
-          clientX = 1;
-        }
-        let clientY = e.clientY;
-        if (clientY === 0) {
-          clientY = 1;
-        }
-        let x = -clientX / 2;
-        let y = -clientY / 2;
-        mouseEl.style.setProperty('--x', x + 'px');
-        mouseEl.style.setProperty('--y', y + 'px');
-      }
-    });
-  }, []);
   return (
     <>
-      <div className="mouse"></div>
+      <div
+        className="mouse"
+        style={{ '--x': coordsX + 'px', '--y': coordsY + 'px' }}
+      ></div>
       <div>
         <div className="container">
           <div className="container__text--center">
