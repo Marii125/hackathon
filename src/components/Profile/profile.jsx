@@ -12,14 +12,14 @@ export const Profile = ({ imagepath, description, title, git, linkedin }) => {
         <div className="link">
           {git !== null ? (
             <Link to={git} target="_blank" className="link__git">
-              <i class="fa-brands fa-github"></i>
+              <i className="fa-brands fa-github"></i>
             </Link>
           ) : (
             ''
           )}
           {linkedin !== null ? (
             <Link to={linkedin} target="_blank" className="link__linkedin">
-              <i class="fa-brands fa-linkedin"></i>
+              <i className="fa-brands fa-linkedin"></i>
             </Link>
           ) : (
             ''

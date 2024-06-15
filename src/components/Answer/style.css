@@ -25,10 +25,14 @@
   text-align: center;
   background-color: transparent;
   line-height: 1.7rem;
- }
+}
+
+.history__result-list .answers-list__answer {
+  width: 80%;
+}
 
 .answers-list__answer:focus {
- 
+
   background-color: #f88dad;
 }
 

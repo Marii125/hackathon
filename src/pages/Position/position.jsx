@@ -7,10 +7,9 @@ export const Position = () => {
     <div className="positions">
       {Object.values(Positions).map((creator) => {
         return (
-          <div className="positions__container">
+          <div key={creator.title} className="positions__container">
             <div className="positions__box ">
               <Profile
-                key={creator.title}
                 imagepath={creator.imagepath}
                 title={creator.title}
                 description={creator.description}
