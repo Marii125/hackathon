@@ -5,7 +5,7 @@ export const Positions = {
     imagecolor: 'color',
     title: 'Testerka',
     description:
-      'pečlivě testuje software, webové stránky a aplikace, aby odhalila všechny nedokonalosti a zajistila jejich bezchybné fungování. Spolupracuje s vývojáři, píše zkušební scénáře a vymýšlí kreativní způsoby, jak prověřit produkt do posledního detailu. Díky testerke se tak na trh dostávají spolehlivé a uživatelsky příjemné aplikace.',
+      'pečlivě testuje software, webové stránky a aplikace, aby odhalila všechny nedokonalosti a zajistila jejich bezchybné fungování. Spolupracuje s vývojáři, píše zkušební scénáře a vymýšlí kreativní způsoby, jak prověřit produkt do posledního detailu. Díky testerce se tak na trh dostávají spolehlivé a uživatelsky příjemné aplikace.',
   },
   analyticka: {
     id: 'analyticka',
@@ -21,7 +21,7 @@ export const Positions = {
     magecolor: 'color',
     title: 'UX Designérka',
     description:
-      'se zaměřuje na to, aby webové stránky, aplikace a další produkty byly pro uživatele co nejpříjemnější a nejjednodušší k používání. Analyzuje potřeby uživatelů, navrhuje prototypy a testuje řešení, aby finální produkt byl maximálně efektivní a zábavný.',
+      'se zaměřuje na to, aby webové stránky, aplikace a další produkty byly pro uživatele, co nejpříjemnější a nejjednodušší k používání. Analyzuje potřeby uživatelů, navrhuje prototypy a testuje řešení, aby finální produkt byl maximálně efektivní a zábavný.',
   },
   frontend: {
     id: 'frontend',
@@ -69,6 +69,6 @@ export const Positions = {
     imagecolor: 'grey',
     title: 'Analytička kyberbezpečnosti',
     description:
-      'chrání digitální data organizace před kybernetickými hrozbami. Sleduje systémy kvůli narušení bezpečnosti, analyzuje hrozby a rychle reaguje na vzniknuté problémy. Její práce zahrnuje provádění bezpečnostních hodnocení, sledování nových kybernetických hrozeb, a vzdělávání zaměstnanců o nejlepších postupech. Potřebuje znalost bezpečnostních nástrojů a silné analytické schopnosti.',
+      'chrání digitální data organizace před kybernetickými hrozbami. Sleduje systémy kvůli narušení bezpečnosti, analyzuje hrozby a rychle reaguje na vzniknuté problémy. Její práce zahrnuje provádění bezpečnostních hodnocení, sledování nových kybernetických hrozeb a vzdělávání zaměstnanců o nejlepších postupech. Potřebuje znalost bezpečnostních nástrojů a silné analytické schopnosti.',
   },
 };

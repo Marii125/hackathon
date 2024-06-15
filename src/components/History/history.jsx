@@ -13,7 +13,7 @@ export const History = ({ dataHistory }) => {
         const answer = questionLog.answer;
 
         return (
-          <div className="result--history--list" key={answer}>
+          <div className="history__result-list" key={answer}>
             <Question text={questionObject.question} />
             <Answer answer={{ text: answer }} />
           </div>

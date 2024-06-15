@@ -27,7 +27,7 @@ export const questionaireData = {
   },
   1: {
     id: 1,
-    question: 'jsi víc ... než ...',
+    question: 'Jsi víc ... než ...',
     answers: [
       {
         text: 'jsi více empatická než technicky zručná',
@@ -35,12 +35,12 @@ export const questionaireData = {
         position: 'ux',
       },
       {
-        text: 'ráda vidíš co nejdříve výsledek své práce',
+        text: 'ráda vidíš, co nejdříve výsledek své práce',
         nextQuestionId: 3,
         position: 'frontend',
       },
       {
-        text: 'první řešení nebo nápad, co tě napadne je vždy vizuální',
+        text: 'první řešení nebo nápad, co tě napadne, je vždy vizuální',
         nextQuestionId: 3,
         position: 'ux',
       },
@@ -79,7 +79,7 @@ export const questionaireData = {
   },
   3: {
     id: 3,
-    question: 'z následujicích činností na tebe nejvíce sedí tendence',
+    question: 'Z následujicích činností na tebe nejvíce sedí tendence',
     answers: [
       {
         text: 'často při aplikacích nebo surfování na internetu vidíš, co by šlo, kde zlepšit',
@@ -123,7 +123,7 @@ export const questionaireData = {
         position: 'analyticka',
       },
       {
-        text: ' často věci zpochybňuješ, a tudíž je potřebuješ posunout na nějakou lepší ůroveň',
+        text: ' často věci zpochybňuješ, a tudíž je potřebuješ posunout na nějakou lepší úroveň',
         nextQuestionId: 6,
         position: 'testerka',
       },
@@ -140,7 +140,7 @@ export const questionaireData = {
         position: 'ux',
       },
       {
-        text: 'na funkční celek v různých změnených podmínkách',
+        text: 'na to jako zadání působí jako funkční celek v různých změněných podmínkách',
         nextQuestionId: 7,
         position: 'frontend',
       },
@@ -149,7 +149,7 @@ export const questionaireData = {
   6: {
     id: 6,
     question:
-      'míváš někdy tendenci věci rozebrat, aby si pochopila jak fungují?',
+      'Míváš někdy tendenci věci rozebrat, aby si pochopila jak fungují?',
     answers: [
       {
         text: 'NE',
@@ -165,7 +165,7 @@ export const questionaireData = {
   },
   7: {
     id: 7,
-    question: 'Co tě nejvíc vystihuje',
+    question: 'Co tě nejvíc vystihuje?',
     answers: [
       {
         text: 'ze všeho nejvíc si rozhodně zvědavá',
@@ -239,12 +239,12 @@ export const questionaireData = {
       'Představ si, že pomáháš kamarádovi s přípravou na večírek, který úkol preferuješ?',
     answers: [
       {
-        text: 'Prohlédnout si seznam hostů a přemýšlet nad zkušenostmi z minulých setkání, abyste vyhodnotili, co fungovalo dobře a co uděláte pro změnu tentokrát ůplně jinak',
+        text: 'prohlédnout si seznam hostů a přemýšlet nad zkušenostmi z minulých setkání, abyste vyhodnotili, co fungovalo dobře, a co uděláte pro změnu tentokrát ůplně jinak',
         nextQuestionId: null,
         position: 'analyticka',
       },
       {
-        text: 'Projít si kontrolní seznam, ujistit se, že je vše v pořádku, zkontrolovat případné problémy a ujistit se, že jsou všechny aktivity, materiál na párty připraveny perfektně a nic k párty nechybí. ',
+        text: 'projít si kontrolní seznam, ujistit se, že je vše v pořádku, zkontrolovat případné problémy a ujistit se, že jsou všechny aktivity, materiál na párty připraveny perfektně a nic k párty nechybí. ',
         nextQuestionId: null,
         position: 'testerka',
       },

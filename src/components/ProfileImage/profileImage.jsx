@@ -1,7 +1,6 @@
 import './styles.css';
 
 export const ProfileImage = ({ imagepath }) => {
-  console.log(imagepath);
   return (
     <img
       className="profile__image"
