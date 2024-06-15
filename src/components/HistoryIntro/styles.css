@@ -1,10 +1,10 @@
-h3 {
-  color: #f67f00;
-}
-
 .history__info {
 
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+h3 {
+  color: #f67f00;
 }
