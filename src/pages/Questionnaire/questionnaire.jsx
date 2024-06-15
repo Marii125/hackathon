@@ -21,7 +21,6 @@ export const Questionnaire = () => {
   const history = useRef([]);
 
   const onChangeAnswer = (answer) => {
-    console.log(score);
     if (answer.position) {
       setScore((previousScore) => {
         const newScore = {
