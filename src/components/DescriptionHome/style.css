@@ -34,20 +34,21 @@
 @media only screen and (min-width: 500px) {
 
   .container__description {
-    font-size: 16px;
+    font-size: 20px;
 
   }
 
   .container__caption {
-    font-size: 16px;
+    font-size: 23px;
 
   }
+ 
 }
 
 @media only screen and (min-width: 768px) {
 
   .container__description {
-    font-size: 18px;
+    font-size: 26px;
 
   }
 

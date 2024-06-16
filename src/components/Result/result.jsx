@@ -24,9 +24,7 @@ export const Result = ({ score }) => {
   const positionWithMaxPoints = findPositionWithMaxPoints(score);
 
   const positionDetail = Positions[positionWithMaxPoints];
-  // const positionDetail = Positions.find(
-  //   (position) => position.id === positionWithMaxPoints,
-  // );
+ 
 
   return (
     <Profile

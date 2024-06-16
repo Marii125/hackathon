@@ -42,7 +42,7 @@
 @media screen and (min-width: 1460px) {
   .positions__container {
     width: calc(100% / 3);
-    text-align: left;
+    text-align: center;
 
     padding-bottom: 30px
   }
