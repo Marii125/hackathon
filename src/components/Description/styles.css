@@ -10,10 +10,8 @@
 }
 
 .description__position {
-   line-height: 1.7rem;
+   line-height: 1.5rem;
    font-size: 18px;
-   min-width: 250px;
-
 
 }
 
@@ -23,28 +21,5 @@
 
    .description__position {
       margin-bottom: 0px;
-   }
-
-   .description__title {
-      font-size: 29px;
-   }
-
-   .description__position {
-      line-height: 1.7rem;
-      font-size: 23px;
-
-   }
-}
-
-@media only screen and (min-width: 768px) {
-
-   .description__title {
-      font-size: 30px;
-   }
-
-   .description__position {
-      line-height: 2rem;
-      font-size: 25px;
-
    }
 }
