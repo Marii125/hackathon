@@ -140,7 +140,7 @@ export const questionaireData = {
         position: 'ux',
       },
       {
-        text: 'na to jako zadání působí jako funkční celek v různých změněných podmínkách',
+        text: 'na to, jak zadání působí jako funkční celek v různých změněných podmínkách',
         nextQuestionId: 7,
         position: 'frontend',
       },
