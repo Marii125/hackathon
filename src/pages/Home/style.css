@@ -14,11 +14,21 @@
 
 .container {
   margin: 0 auto;
-  top: 250px;
+  top: 100px;
   position: relative;
   z-index: 1;
   text-align: center;
   padding: 10px;
+}
+
+
+@media screen and (min-width: 500px) {
+
+  .container {
+
+    top: 250px;
+
+  }
 }
 
 @media screen and (min-width: 2000px) {
