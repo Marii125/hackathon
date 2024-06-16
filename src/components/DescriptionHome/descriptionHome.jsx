@@ -4,7 +4,7 @@ export const DescriptionalHome = () => {
   return (
     <>
       <p className="container__description">
-        Změna profese je pro každého z nás velký krok. Pokud tě zajímá svět IT
+        Změna profese je pro každého z nás velký krok. Pokud tě zajímá svět IT,
         po vyplnění krátkého dotazníku ti úkážeme , která profese v IT se k tobě
         nejvíce hodí.
       </p>
