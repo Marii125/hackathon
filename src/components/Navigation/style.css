@@ -18,15 +18,17 @@
   left: 0;
   bottom: 0;
   width: 100%;
-  display: block;
+  display: none;
   z-index: 1000;
   transform: translate(100vw, 0);
-  transition: transform 0.4s ease-in-out;
+  /* transition: transform 0.4s ease-in-out; */
+  animation: moveInOut 0.4s ease-in-out;
   background: linear-gradient(0.25turn, #0c3e71, hsl(276deg 86.21% 14.03%))
 }
 
 .navigation__mobile-menu--open {
   transform: translate(0, 0);
+  display: block;
   align-items: center;
 }
 
@@ -38,6 +40,21 @@
   border: 0;
   cursor: pointer
 }
+
+@keyframes moveInOut {
+  0% {
+    display: none;
+    transform: translate(100vw, 0);
+  }
+
+
+
+  100% {
+    display: block;
+    transform: translate(0, 0);
+  }
+}
+
 
 
 .navigation__mobile__hamburger i {
